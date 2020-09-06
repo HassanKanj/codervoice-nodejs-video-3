@@ -1,0 +1,26 @@
+.main {
+    min-height: 400px;
+    background-color: #eee;
+    padding: 20px;
+}
+
+.footer {
+    text-align: center;
+    padding-top: 10px;
+    height: 30px;
+    background-color: green;
+    color: white;
+}
+
+.nav {
+    background-color: green;
+    color: black;
+    text-align: center;
+    height: 30px;
+    padding-top: 10px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+}

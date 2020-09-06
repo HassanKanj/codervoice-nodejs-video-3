@@ -1,0 +1,10 @@
+<%- include('../includes/head.ejs') %>
+<%- include('../includes/nav.ejs') %>
+<bod>
+    <div class="main">
+        <% items.forEach(item => { %>
+            <%= item.name %>:<%= item.price %><br />        
+        <% }); %>
+    </div>
+</bod>
+<%- include('../includes/footer.ejs') %>
